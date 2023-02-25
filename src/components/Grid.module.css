@@ -1,0 +1,27 @@
+.grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    align-content: space-between;
+    
+}
+.grid>*{
+    padding: 10px;
+}
+.grid>:nth-child(4){
+    margin-bottom: -15px;
+}
+.header>:nth-child(1){
+font-weight: bold;
+}
+.header>:nth-child(2){
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+}
+.container{
+    padding:2.5rem 0 5rem 0;
+}
